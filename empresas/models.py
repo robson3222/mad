@@ -2,6 +2,7 @@ from datetime import timezone
 from django.db import models
 from django.conf import settings
 from django.utils import timezone
+from empresas.models import Post
 
 # Create your models here.
 class Post(models.Model):
